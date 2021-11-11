@@ -27,13 +27,7 @@ import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefrom
 import Table from '@ckeditor/ckeditor5-table/src/table.js';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar.js';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation.js';
-import Video from '@visao/ckeditor5-video/src/video.js';
-import AutoVideo from '@visao/ckeditor5-video/src/autovideo.js';
-import VideoInsert from '@visao/ckeditor5-video/src/videoinsert.js';
-import VideoResize from '@visao/ckeditor5-video/src/videoresize.js';
-import VideoStyle from '@visao/ckeditor5-video/src/videostyle.js';
-import VideoToolbar from '@visao/ckeditor5-video/src/videotoolbar.js';
-import VideoUpload from '@visao/ckeditor5-video/src/videoupload.js';
+
 
 class Editor extends ClassicEditor {}
 
@@ -63,13 +57,6 @@ Editor.builtinPlugins = [
 	Table,
 	TableToolbar,
 	TextTransformation,
-	Video,
-	AutoVideo,
-	VideoInsert,
-	VideoResize,
-	VideoStyle,
-	VideoToolbar,
-	VideoUpload,
 ];
 
 export default Editor;
