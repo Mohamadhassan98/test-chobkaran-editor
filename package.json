@@ -27,7 +27,6 @@
     "@ckeditor/ckeditor5-table": "^31.0.0",
     "@ckeditor/ckeditor5-theme-lark": "^31.0.0",
     "@ckeditor/ckeditor5-typing": "^31.0.0",
-    "@visao/ckeditor5-video": "https://github.com/Mohamadhassan98/ckeditor5-video.git",
     "css-loader": "^5.2.7",
     "postcss": "^8.3.8",
     "postcss-loader": "^4.3.0",
